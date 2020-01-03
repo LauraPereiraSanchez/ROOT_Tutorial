@@ -11,7 +11,7 @@ void Tree_edit(const TString Name){
   
   //If you want to copy only some branches:
   t0->SetBranchStatus("*", 0);   // Deactivate all branches                                                                                                                                                                     
-  for (auto activeBranchName : {"event_number", "met", "dphi_met_lep", "mt","stxe_trigger","lep_pt","jet_pt","n_jet","n_bjet","dphi_jet0_ptmiss","dphi_jet1_ptmiss","mT2tauLooseTau_GeV","n_lep","mu_trigger","el_trigger","lumi_weight","dilep_m","el_idTight","n_mu","n_el", "ht_sig","topness","hadtop_cand_m","dphi_min_ptmiss","bjet_pt","mc_channel_number"})   // Activate only the branches you want to keep
+  for (auto activeBranchName : {"event_number", "met", "dphi_met_lep", "mt","stxe_trigger","lep_pt","jet_pt","n_jet","n_bjet","dphi_jet0_ptmiss","dphi_jet1_ptmiss","mT2tauLooseTau_GeV","n_lep","mu_trigger","el_trigger","lumi_weight","dilep_m","el_idTight","n_mu","n_el", "ht_sig","topness","hadtop_cand_m","dphi_min_ptmiss","bjet_pt","mc_channel_number","n_dilep","mt3L","zll_met","xs_weight","n_dilep","sf_total","weight","amt2"})   // Activate only the branches you want to keep
     t0->SetBranchStatus(activeBranchName, 1);
   
   //dilep_m, zll_met
