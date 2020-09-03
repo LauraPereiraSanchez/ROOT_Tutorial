@@ -11,9 +11,9 @@ cd Tutorial_ROOT
 mkdir Files; cd Files; cp /afs/cern.ch/user/l/lapereir/public/TutorialNuples/* .
 
 ### Make plots:
-
+```
 python PlotTutorial.py
-
+```
 ### Read and modifiy trees:
 ```
 root -l TreeTutorial.cxx
