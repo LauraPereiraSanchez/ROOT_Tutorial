@@ -12,7 +12,7 @@ Variables = ["mt"]#"jet_pt[0]","jet_pt[1]","jet_pt[2]","jet_pt[3]","lep_pt[0]","
 
 # Regions from RegionsDef_tN_DM.py
 cut = '('+hardlepton_presel+'&&'+dm_jetpt+ '&&'+dm_sr+'&&'+dm_onebin+')'
-weights = "xs_weight*sf_total*lumi_weight*weight*139500"
+weights = "sf_total*lumi_weight*weight*139500"
 
 ######### Open the different files ###########
 bkgFile = TFile.Open("Files/mc16_ttZnunu.root")
