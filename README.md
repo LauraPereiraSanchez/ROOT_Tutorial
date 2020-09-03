@@ -1,6 +1,6 @@
 # Tutorial_ROOT
 
-This repository contains different example files to master ROOT.
+This repository contains different example files to master ROOT. Feel free to modify (comment/uncomment) lines in the scripts to learn what each line does.
 
 ### Setup
 
